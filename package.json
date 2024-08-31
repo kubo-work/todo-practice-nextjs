@@ -1,5 +1,5 @@
 {
-  "name": "todo-practice-nextjs",
+  "name": "todo-pracitice-next-js",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,16 +9,26 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/cache": "^11.13.1",
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@mui/material": "^5.16.7",
+    "@mui/material-nextjs": "^5.16.6",
+    "@mui/x-date-pickers": "^7.13.0",
+    "@supabase/supabase-js": "^2.45.1",
+    "date-fns": "^3.1.0",
+    "date-fns-tz": "^3.1.3",
+    "framer-motion": "^11.3.22",
+    "next": "14.2.5",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.7"
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
-    "eslint-config-next": "14.2.7"
+    "eslint-config-next": "14.2.5",
+    "typescript": "^5"
   }
 }
