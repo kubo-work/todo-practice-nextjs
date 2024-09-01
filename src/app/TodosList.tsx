@@ -21,7 +21,7 @@ const TodosList: FC<Props> = React.memo((props) => {
   const { loadTodos } = props;
   useEffect(() => {
     loadTodos && setTodos(loadTodos);
-  }, []);
+  }, [loadTodos, setTodos]);
   return (
     <TableContainer>
       <Table>

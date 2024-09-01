@@ -39,7 +39,7 @@ export const useFilterTodos = () => {
             }
         }
         getTodos();
-    }, [conditions]);
+    }, [conditions, setTodos]);
 
     return { handleChangeSordIdSelect, handleChangeFilterStatus, conditions, setConditions }
 }

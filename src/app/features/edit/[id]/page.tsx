@@ -10,6 +10,8 @@ export const metadata: Metadata = {
   title: "TODOを編集",
 };
 
+export const revalidate = 0;
+
 const page = React.memo(async function Page(params: {
   params: { id: string };
 }) {

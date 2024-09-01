@@ -36,7 +36,7 @@ const EditTodo: FC<Props> = React.memo(function EditTodo(props) {
 
   useEffect(() => {
     editTodoData && setTodo(editTodoData);
-  }, []);
+  }, [editTodoData, setTodo]);
 
   return (
     <LocalizationProvider dateAdapter={AdapterDateFns}>
